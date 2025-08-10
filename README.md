@@ -76,9 +76,7 @@ EventBus.on('event-name', (data) => {
 });
 ```
 
-In addition to this, the `PhaserGame` component exposes the Phaser game instance along with the most recently active Phaser Scene using React forwardRef.
-
-Once exposed, you can access them like any regular react reference.
+In addition to this, the `PhaserGame` component exposes the Phaser game instance along with the most recently active Phaser Scene using React ref.
 
 ## Phaser Scene Handling
 
