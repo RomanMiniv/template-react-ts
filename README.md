@@ -51,7 +51,7 @@ We have provided a default project structure to get you started. This is as foll
 | `src/App.tsx`                 | The main React component.                                                  |
 | `src/game/EventBus.ts`        | A simple event bus to communicate between React and Phaser.                |
 | `src/game`                    | Contains the game source code.                                             |
-| `src/game/main.tsx`           | The main **game** entry point. This contains the game configuration and starts the game. |
+| `src/game/main.ts`           | The main **game** entry point. This contains the game configuration and starts the game. |
 | `src/game/scenes/`            | The folder where Phaser Scenes are located.                                |
 | `public/style.css`            | Some simple CSS rules to help with page layout.                            |
 | `public/assets`               | Contains the static assets used by the game.                               |
@@ -60,7 +60,7 @@ We have provided a default project structure to get you started. This is as foll
 
 The `PhaserGame.tsx` component is the bridge between React and Phaser. It initializes the Phaser game and passes events between the two.
 
-To communicate between React and Phaser, you can use the **EventBus.js** file. This is a simple event bus that allows you to emit and listen for events from both React and Phaser.
+To communicate between React and Phaser, you can use the **EventBus.ts** file. This is a simple event bus that allows you to emit and listen for events from both React and Phaser.
 
 ```js
 // In React
